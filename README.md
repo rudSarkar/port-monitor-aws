@@ -11,3 +11,6 @@ docker-compose up --build -d
 ```
 
 It will build the multi-container application with 3 different container and 1 network and you can access the mongo-express to 8081 port for checking the database with the credential you provided `ME_CONFIG_BASICAUTH_USERNAME` and `ME_CONFIG_BASICAUTH_PASSWORD` in `.env` file.
+
+
+Make sure to open `port_scanner` container and run `aws configure` to set the aws credential.
