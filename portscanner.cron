@@ -1,0 +1,1 @@
+00 00 */15 * * bash /app/regular_scan.sh >> /var/log/cron.log 2>&1
